@@ -11,6 +11,26 @@
     height: 77px;
 }
 
+.box {
+    max-width: 449px;
+    height: 64px;
+    border-radius: 50px;
+    padding-right: 20px;
+    padding-left: 26px;
+}
+
+.email {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    max-width: 144px;
+}
+
+.email::placeholder {
+    color: white;
+    color: white;
+}
+
 /* ================================ utility classes=========================================== */
 .gap-10 {
     gap: 10px;
@@ -19,10 +39,23 @@
 .pt-104 {
     padding-top: 104px;
 }
-.mr-37{
-    margin-right: 37px;
+
+.pb-104 {
+    padding-bottom: 104px;
 }
-.text-decoration-none{
-    text-decoration: none;
-  
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mr-37 {
+    margin-right: 37px;
 }
