@@ -1,10 +1,53 @@
 .sec-1-bg {
-    background-image: url(/assets/images/sec-1-bg-line-img.webp);
+    background-image: url(/assets/images/sec-1bg-line.webp);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 48px;
+    background-position: center;
 }
 
-.w-1440 {
-    width: 1440px !important;
+a {
+    text-decoration: none !important;
+}
+
+.lh-20 {
+    line-height: 20px;
+}
+.m-w-1440{
+    max-width: 1440px !important;
+}
+
+.lh-70 {
+    line-height: 70px;
+}
+
+.hero-img {
+    position: absolute;
+    width: 50%;
+    top: 70px;
+    right: 0;
+}
+.ltr-space{
+    letter-spacing: -7px;
+}
+
+@font-face {
+    font-family: "Söhne Schmal",sans-serif;
+    src: url(/assets/font/TestSöhneSchmal-Dreiviertelfett.otf);
+}
+@font-face {
+    font-family: "MaisonNeueMono-Regular",sans-serif;
+    src: url(/assets/font/MaisonNeueMono-Regular.otf);
+}
+@font-face {
+    font-family: "MaisonNeue-Demi",sans-serif;
+    src: url(/assets/font/MaisonNeue-Demi.otf);
+}
+
+.ff-sohne {
+    font-family: "Söhne Schmal", sans-serif;
+}
+.ff-maisonneue-demi{
+    font-family: "MaisonNeue-Demi",sans-serif;
+}
+.ff-maisonneuemono{
+    font-family: "MaisonNeueMono-Regular",sans-serif;
 }
