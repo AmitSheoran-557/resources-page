@@ -15,6 +15,9 @@ a {
 .lh-20 {
     line-height: 20px;
 }
+.lh-30 {
+    line-height: 30px;
+}
 
 .lh-70 {
     line-height: 70px;
@@ -27,33 +30,86 @@ a {
     top: 70.5px;
     right: 0;
 }
+/* .hero-image{
+    max-width: 800px;
+    max-height: 800px;
+} */
+
+.min-vh-1 {
+    min-height: 110vh;
+}
+
+.min-vh-2 {
+    min-height: 50vh;
+}
 
 .m-w-57 {
     max-width: 57px;
 }
-.m-h-90{
+
+
+.m-h-90 {
     min-height: 90px;
 }
-.red-circle-img{
+
+.red-circle-img {
     position: absolute;
     bottom: 5%;
     left: -2%;
 }
-a, path{
+
+a,
+path {
     transition: all 200ms linear;
 }
-a:hover{
+
+a:hover {
     color: #00AFB5 !important;
-    path{
+
+    path {
         fill: #00AFB5 !important;
     }
 }
-.nav-btn, svg{
+
+.nav-btn,
+svg {
     transition: all 200ms linear;
 }
-.nav-btn:hover{
+
+.nav-btn:hover {
     background-color: #00AFB5;
 }
+.sec-2-card{
+    min-height: 551px;
+}
+
+.sec-2 .bg-img-1 {
+    background-image: url(/assets/images/sec-2-card1.webp);
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+}
+.sec-2 .bg-img-2 {
+    background-image: url(/assets/images/sec-2-card2.webp);
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+}
+.sec-2 .bg-img-3 {
+    background-image: url(/assets/images/sec-2-card3.webp);
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+}
+.mt-202{
+    margin-top: 300px;
+}
+.sec-2-box{
+    min-height: 320px !important;
+}
+
+
+
 @font-face {
     font-family: "Söhne Schmal";
     src: url(/assets/font/TestSöhneSchmal-Dreiviertelfett.otf);
@@ -68,9 +124,16 @@ a:hover{
     font-family: "MaisonNeue-Demi";
     src: url(/assets/font/MaisonNeue-Demi.otf);
 }
+@font-face {
+    font-family: "MaisonNeue-light";
+    src: url(/assets/font/MaisonNeue-Light.otf);
+}
 
 .ff-sohne {
     font-family: "Söhne Schmal", sans-serif;
+}
+.ff-neue-light {
+    font-family: "MaisonNeue-Light", sans-serif;
 }
 
 .ff-maisonneuemono {
