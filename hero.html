@@ -13,9 +13,16 @@
 </head>
 
 <body>
-    <section class="sec-1-bg min-vh-100">
-        <nav>
-            <ul class="d-flex gap-4 m-0 justify-content-end align-items-center">
+    <section class="sec-1-bg min-vh-100 d-flex">
+        <a href=""><img src="./assets/images/Venveo-logo (1).webp" alt="" class="ps-5 pt-4"></a>
+        <nav class="d-flex justify-content-end position-fixed z-1 right-0 w-100">
+            <input type="checkbox" id="menuicons" hidden>
+            <label for="menuicons">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu d-flex gap-4 m-0 align-items-center">
                 <li class="list-unstyled">
                     <a href="#" class="fs-md fw-medium text-dark">How We Help <svg xmlns="http://www.w3.org/2000/svg"
                             width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill"
@@ -57,7 +64,7 @@
                     </a>
                 </li>
                 <li class="list-unstyled">
-                    <button class="p-4 fc-bg-white-green border-0 fw-semibold fs-md">Let's Talk <svg
+                    <button class="p-4 fc-bg-white-green border-0 fw-semibold fs-md  nav-btn">Let's Talk <svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -67,23 +74,26 @@
                 </li>
             </ul>
         </nav>
-        <div class="container m-w-1440">
+        <div class="container flex-grow-1 d-flex align-items-center">
             <div class="row justify-content-between">
-                <div class="col-5 d-flex align-items-center">
-                    <div class="box">
-                        <p class="fw-semibold fs-md fc-sky m-0">GUIDES</p>
-                        <p class="ff-sohne fs-3xl ltr-space fw-bold lh-70 m-0 py-3">MARKETING TO CONSTRACTORS AND INSTALLERS: THE ULTIMATE GUIDE</p>
-                        <p class="fs-xl m-0 pb-4 ff-maisonneuemono">Understanding the process and maximize the opportunities</p>
-                        <a href="" class="fw-semibold fs-md text-dark">Read More <svg width="10" height="10"
-                                viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
-                            </svg>
-                        </a>
+                <div class="col-5 d-flex align-items-center mt-4">
+                    <div class="box pt-5 mt-5">                        
+                            <p class="fw-semibold fs-md fc-sky m-0">GUIDES</p>
+                            <p class="ff-sohne fs-3xl fw-bold lh-70 m-0 py-3">MARKETING TO CONSTRACTORS AND INSTALLERS:
+                                THE ULTIMATE GUIDE</p>
+                            <p class="fs-md m-0 pb-4 ff-maisonneuemono">Understanding the process and maximize the
+                                opportunities</p>
+                            <a href="" class="fw-semibold fs-md text-dark">Read More <svg width="10" height="10"
+                                    viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
+                                </svg>
+                            </a>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-7">
                     <div class="hero-img">
                         <img src="./assets/images/hero-img.webp" alt="hero-img" class="w-100">
+                        <img src="./assets/images/hero-red-circle (1).webp" alt="hero-red-circle (1)" class="red-circle-img">
                     </div>
                 </div>
             </div>
