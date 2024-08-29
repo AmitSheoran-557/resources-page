@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     font-family: "MaisonNeue-Demi", sans-serif;
 }
 
 .sec-1-bg {
-    background-image: url(/assets/images/sec-1bg-line.webp);
+    background-image: url(/assets/images/hero-bg-line.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -15,6 +17,7 @@ a {
 .lh-20 {
     line-height: 20px;
 }
+
 .lh-30 {
     line-height: 30px;
 }
@@ -30,18 +33,6 @@ a {
     top: 70.5px;
     right: 0;
 }
-/* .hero-image{
-    max-width: 800px;
-    max-height: 800px;
-} */
-
-.min-vh-1 {
-    min-height: 110vh;
-}
-
-.min-vh-2 {
-    min-height: 50vh;
-}
 
 .m-w-57 {
     max-width: 57px;
@@ -50,6 +41,10 @@ a {
 
 .m-h-90 {
     min-height: 90px;
+}
+
+.hero-img {
+    position: relative;
 }
 
 .red-circle-img {
@@ -79,7 +74,8 @@ svg {
 .nav-btn:hover {
     background-color: #00AFB5;
 }
-.sec-2-card{
+
+.sec-2-card {
     min-height: 551px;
 }
 
@@ -89,25 +85,49 @@ svg {
     background-size: cover;
     width: 100%;
 }
+
 .sec-2 .bg-img-2 {
     background-image: url(/assets/images/sec-2-card2.webp);
     object-fit: cover;
     background-size: cover;
     width: 100%;
 }
+
 .sec-2 .bg-img-3 {
     background-image: url(/assets/images/sec-2-card3.webp);
     object-fit: cover;
     background-size: cover;
     width: 100%;
 }
-.mt-202{
+
+.mt-202 {
     margin-top: 300px;
 }
-.sec-2-box{
+
+.sec-2-box {
     min-height: 320px !important;
 }
 
+.sec-3-bg {
+    background-image: url(/assets/images/bg-lemon.webp);
+    background-size: cover;
+    width: 100%;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.sec-3-container {
+    position: relative;
+}
+
+.flexible-arrow {
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+
+}
 
 
 @font-face {
@@ -124,6 +144,7 @@ svg {
     font-family: "MaisonNeue-Demi";
     src: url(/assets/font/MaisonNeue-Demi.otf);
 }
+
 @font-face {
     font-family: "MaisonNeue-light";
     src: url(/assets/font/MaisonNeue-Light.otf);
@@ -132,12 +153,17 @@ svg {
 .ff-sohne {
     font-family: "Söhne Schmal", sans-serif;
 }
+
 .ff-neue-light {
     font-family: "MaisonNeue-Light", sans-serif;
 }
 
 .ff-maisonneuemono {
     font-family: "MaisonNeueMono-Regular", sans-serif;
+}
+
+.ff-spacemono {
+    font-family: "Space Mono", monospace;
 }
 
 
@@ -195,5 +221,22 @@ svg {
     input[type="checkbox"]:checked+label[for="menuicons"]>span:last-child {
         transform: rotate(-40deg);
         transform-origin: left;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .d_lg_none {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .hero-img {
+        position: relative;
+        position: absolute;
+        width: 50%;
+        top: 70.5px;
+        right: 0;
     }
 }
