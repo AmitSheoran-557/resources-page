@@ -86,47 +86,65 @@
     --fc-dark-sky: #097980;
 
 }
+
 /* ==================================text-color================================ */
 .fc-white-green {
     color: var(--fc-white-green);
 }
-.fc-sky{
+
+.fc-sky-bg {
+    background-color: var(--fc-sky);
+}
+
+.fc-sky {
     color: var(--fc-sky);
 }
+
 .fc-red {
     color: var(--fc-red);
 }
+
 .fc-lite-green {
     color: var(--fc-lite-green);
 }
+
 .fc-fc-dark-green {
     color: var(--fc-dark-green);
 }
-.fc-off-sky{
+
+.fc-off-sky {
     color: var(--fc-off-sky);
 }
-.fc-dark-sky{
+
+.fc-dark-sky {
     color: var(--fc-dark-sky);
 }
+
 /* ----------------------------background-color-------------------------------------- */
 .bg-white-green {
     color: var(--fc-white-green);
 }
-.bg-sky{
+
+.bg-sky {
     color: var(--fc-sky);
 }
+
 .bg-red {
     color: var(--fc-red);
 }
+
 .bg-lite-green {
     color: var(--fc-lite-green);
 }
+
 .bg-fc-dark-green {
     color: var(--fc-dark-green);
 }
-.bg-off-sky{
+
+.bg-off-sky {
     color: var(--fc-off-sky);
 }
-.bg-dark-sky{
+
+.bg-dark-sky {
     color: var(--fc-dark-sky);
 }
