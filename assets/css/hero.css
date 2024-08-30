@@ -26,17 +26,8 @@ a {
     line-height: 70px;
 }
 
-.min-vh-110 {
-    min-height: 110vh;
-}
-
 .m-w-57 {
     max-width: 57px;
-}
-
-
-.m-h-90 {
-    min-height: 90px;
 }
 
 .hero-img {
@@ -100,10 +91,6 @@ svg {
     object-fit: cover;
     background-size: cover;
     width: 100%;
-}
-
-.mt-202 {
-    margin-top: 300px;
 }
 
 .sec-2-box {
