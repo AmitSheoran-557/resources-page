@@ -139,18 +139,11 @@
 }
 
 .sec-3-card {
-    height: 551px;
+    min-height: 551px;
     margin-top: 25px;
     display: flex;
     align-items: end;
     padding: 0px 29px 29px 29px;
-}
-
-.w-1440 {
-    max-width: 1440px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .linear-bg {
