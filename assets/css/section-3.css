@@ -71,12 +71,9 @@
     background-size: cover;
 }
 
-/* .lemon-border {
-    background-image: url(/assets/images/green-border.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: 0;
-} */
+.lemon-image {
+    top: 20%;
+}
 
 .sec-3-box {
     background: white;
