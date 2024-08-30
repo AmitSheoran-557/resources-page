@@ -15,6 +15,10 @@
     color: black;
 }
 
+.footer-heading {
+   font-family: unset !important;
+}
+
 /* ============================== hover ============================= */
 .line-hover::after {
     position: absolute;
@@ -185,6 +189,7 @@ a {
     font-family: "MaisonNeue-Demi", sans-serif;
 }
 
+
 .sec-3-bg-image {
     background-image: url(/assets/images/Background\ image.webp) !important;
     background-size: cover;
@@ -310,26 +315,23 @@ a {
     margin: 0 auto;
 }
 
-@media (max-width:576px) {
-    .sec-3-box-height {
-        height: 280px !important;
-    }
 
-    .sec-4-box-height {
-        height: 250px !important;
-    }
-
-    .sec-height {
-        height: 290px !important;
-    }
-}
 
 /* ============================================================================ */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-* {
+.sec-1 {
     font-family: "MaisonNeue-Demi", sans-serif;
 }
+
+.sec-2 {
+    font-family: "MaisonNeue-Demi", sans-serif;
+}
+
+.sec-3 {
+    font-family: "MaisonNeue-Demi", sans-serif;
+}
+
 
 .sec-1-bg {
     background-image: url(/assets/images/hero-bg-line.png);
@@ -377,8 +379,11 @@ ul li a.rotate:hover {
         transform: rotate(180deg) !important;
     }
 }
+.sec-1.min-vh-110{
+    min-height: 110vh !important;
+}
 
-a:hover {
+nav a:hover {
     color: #00AFB5 !important;
 
     path {
@@ -392,7 +397,7 @@ svg {
 }
 
 .nav-btn:hover {
-    background-color: #00AFB5;
+    background-color: #00AFB5 !important;
 
     svg {
         transform: rotate(180deg) !important;
@@ -481,119 +486,7 @@ svg {
     font-family: "Space Mono", monospace;
 }
 
-@media (max-width:992px) {
-    label[for="menuicons"] {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        width: 40px;
-        height: 30px;
-        z-index: 1;
-        position: relative;
-        top: 15px;
-        right: 10px;
-    }
 
-    label[for="menuicons"]>span {
-        width: 100%;
-        height: 6px;
-        background-color: #25DAC5;
-        border-radius: 10px;
-        transition: all 200ms linear;
-    }
-
-    ul.menu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: fixed;
-        flex-direction: column;
-        top: 0;
-        right: -100%;
-        height: 100vh;
-        width: 100%;
-        transition: all 200ms linear;
-    }
-
-    input[type="checkbox"]:checked~ul.menu {
-        right: 0;
-        background-color: #50725c;
-    }
-
-    input[type="checkbox"]:checked+label[for="menuicons"]>span:first-child {
-        transform: rotate(40deg);
-        transform-origin: left;
-    }
-
-    input[type="checkbox"]:checked+label[for="menuicons"]>span:nth-child(2) {
-        transform: translateX(-200%);
-        opacity: 0;
-    }
-
-    input[type="checkbox"]:checked+label[for="menuicons"]>span:last-child {
-        transform: rotate(-40deg);
-        transform-origin: left;
-    }
-
-    .w-lg-100 {
-        width: 100%;
-    }
-
-}
-
-@media (max-width:1200px) {
-    .d_lg_none {
-        display: none;
-    }
-}
-
-@media (min-width:992px) {
-    .hero-img {
-        position: relative;
-        position: absolute;
-        width: 50%;
-        top: 70.5px;
-        right: 0;
-    }
-
-    .bg-lg-light {
-        background: white !important;
-    }
-}
-
-@media (min-width:992px) {
-    .sec-2-lg-card {
-        min-height: 510px !important;
-    }
-}
-
-@media (min-width:576px) {
-    .sec-2-card {
-        min-height: 410px;
-    }
-}
-
-@media (max-width:576px) {
-    .lh-sm-44 {
-        line-height: 44px;
-    }
-
-    .lh-sm-23 {
-        line-height: 23px;
-    }
-
-    .lh-sm-17 {
-        line-height: 17px;
-    }
-
-    .sec-2-sm-box {
-        min-height: 157px !important;
-    }
-
-    .sec-2-sm-card {
-        min-height: 330px !important;
-    }
-}
 
 /* ============================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap');
@@ -662,8 +555,6 @@ svg {
 
 }
 
-
-
 .leading-83 {
     line-height: 83%;
 }
@@ -714,6 +605,72 @@ svg {
     display: none;
 }
 
+@media (max-width:1200px) {
+    .d_lg_none {
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    label[for="menuicons"] {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 40px;
+        height: 30px;
+        z-index: 1;
+        position: relative;
+        top: 15px;
+        right: 10px;
+    }
+
+    label[for="menuicons"]>span {
+        width: 100%;
+        height: 6px;
+        background-color: #25DAC5;
+        border-radius: 10px;
+        transition: all 200ms linear;
+    }
+
+    ul.menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 100%;
+        transition: all 200ms linear;
+    }
+
+    input[type="checkbox"]:checked~ul.menu {
+        right: 0;
+        background-color: #50725c;
+    }
+
+    input[type="checkbox"]:checked+label[for="menuicons"]>span:first-child {
+        transform: rotate(40deg);
+        transform-origin: left;
+    }
+
+    input[type="checkbox"]:checked+label[for="menuicons"]>span:nth-child(2) {
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+
+    input[type="checkbox"]:checked+label[for="menuicons"]>span:last-child {
+        transform: rotate(-40deg);
+        transform-origin: left;
+    }
+
+    .w-lg-100 {
+        width: 100%;
+    }
+
+}
+
 @media (min-width:992px) {
     .your-name {
         min-width: 449px;
@@ -730,5 +687,61 @@ svg {
         left: 50%;
         transform: translateX(-70%);
         display: block;
+    }
+
+    .hero-img {
+        position: relative;
+        position: absolute;
+        width: 50%;
+        top: 70.5px;
+        right: 0;
+    }
+
+    .bg-lg-light {
+        background: white !important;
+    }
+
+    .sec-2-lg-card {
+        min-height: 510px !important;
+    }
+}
+
+@media (min-width:576px) {
+    .sec-2-card {
+        min-height: 410px;
+    }
+}
+
+@media (max-width:576px) {
+    .lh-sm-44 {
+        line-height: 44px;
+    }
+
+    .lh-sm-23 {
+        line-height: 23px;
+    }
+
+    .lh-sm-17 {
+        line-height: 17px;
+    }
+
+    .sec-2-sm-box {
+        min-height: 157px !important;
+    }
+
+    .sec-2-sm-card {
+        min-height: 330px !important;
+    }
+
+    .sec-3-box-height {
+        height: 280px !important;
+    }
+
+    .sec-4-box-height {
+        height: 250px !important;
+    }
+
+    .sec-height {
+        height: 290px !important;
     }
 }
