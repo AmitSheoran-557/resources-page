@@ -102,9 +102,14 @@
 .fc-lite-green {
     color: var(--fc-lite-green) !important;
 }
+<<<<<<< HEAD
 
 .fc-fc-dark-green {
     color: var(--fc-dark-green) !important;
+=======
+.fc-dark-green {
+    color: var(--fc-dark-green);
+>>>>>>> b3a133926a2547fea0fd456d6c5fb87c34ba62a1
 }
 
 .fc-off-sky {
@@ -117,22 +122,38 @@
 
 /* ----------------------------background-color-------------------------------------- */
 .bg-white-green {
+<<<<<<< HEAD
     background-color: var(--fc-white-green) !important;
 }
 
 .bg-sky {
     background-color: var(--fc-sky) !important;
+=======
+    background-color: var(--fc-white-green);
+}
+.bg-sky{
+    background-color: var(--fc-sky);
+>>>>>>> b3a133926a2547fea0fd456d6c5fb87c34ba62a1
 }
 
 .bg-red {
+<<<<<<< HEAD
     background-color: var(--fc-red) !important;
+=======
+    background-color: var(--fc-red);
+>>>>>>> b3a133926a2547fea0fd456d6c5fb87c34ba62a1
 }
 
 .bg-lite-green {
+<<<<<<< HEAD
     background-color: var(--fc-lite-green) !important;
+=======
+    background-color: var(--fc-lite-green);
+>>>>>>> b3a133926a2547fea0fd456d6c5fb87c34ba62a1
 }
 
 .bg-fc-dark-green {
+<<<<<<< HEAD
     background-color: var(--fc-dark-green) !important;
 }
 
@@ -142,4 +163,13 @@
 
 .bg-dark-sky {
     background-color: var(--fc-dark-sky) !important;
+=======
+    background-color: var(--fc-dark-green);
+}
+.bg-off-sky{
+    background-color: var(--fc-off-sky);
+}
+.bg-dark-sky{
+    background-color: var(--fc-dark-sky);
+>>>>>>> b3a133926a2547fea0fd456d6c5fb87c34ba62a1
 }
