@@ -71,11 +71,30 @@
     background-size: cover;
 }
 
+/* .lemon-border {
+    background-image: url(/assets/images/green-border.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+} */
+
 .sec-3-box {
     background: white;
-    width: 420px;
+    height: 320px;
     border-radius: 25px;
     padding: 28px;
+}
+
+.sec-4-box {
+    background: white;
+    width: 100%;
+    height: 320px;
+    border-radius: 25px;
+    padding: 28px;
+}
+
+.read-btn {
+    bottom: 30px;
 }
 
 .mx-325 {
@@ -129,6 +148,13 @@
     padding: 0px 29px 29px 29px;
 }
 
+.w-1440 {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .linear-bg {
     background: linear-gradient(to top, white 76%, #00AFB5 20%);
 }
@@ -142,3 +168,12 @@
     margin: 0 auto;
 }
 
+@media (max-width:576px) {
+    .sec-3-box-height {
+        height: 280px !important;
+    }
+
+    .sec-4-box-height {
+        height: 250px !important;
+    }
+}
