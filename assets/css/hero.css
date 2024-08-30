@@ -26,21 +26,8 @@ a {
     line-height: 70px;
 }
 
-.hero-img {
-    position: relative;
-    position: absolute;
-    width: 50%;
-    top: 70.5px;
-    right: 0;
-}
-
 .m-w-57 {
     max-width: 57px;
-}
-
-
-.m-h-90 {
-    min-height: 90px;
 }
 
 .hero-img {
@@ -49,13 +36,19 @@ a {
 
 .red-circle-img {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     left: -2%;
 }
 
 a,
 path {
     transition: all 200ms linear;
+}
+
+ul li a.rotate:hover {
+    svg {
+        transform: rotate(180deg) !important;
+    }
 }
 
 a:hover {
@@ -73,10 +66,10 @@ svg {
 
 .nav-btn:hover {
     background-color: #00AFB5;
-}
 
-.sec-2-card {
-    min-height: 551px;
+    svg {
+        transform: rotate(180deg) !important;
+    }
 }
 
 .sec-2 .bg-img-1 {
@@ -100,12 +93,8 @@ svg {
     width: 100%;
 }
 
-.mt-202 {
-    margin-top: 300px;
-}
-
 .sec-2-box {
-    min-height: 320px !important;
+    min-height: 270px !important;
 }
 
 .sec-3-bg {
@@ -219,6 +208,10 @@ svg {
         transform-origin: left;
     }
 
+    .w-lg-100 {
+        width: 100%;
+    }
+
 }
 
 @media (max-width:1200px) {
@@ -234,5 +227,42 @@ svg {
         width: 50%;
         top: 70.5px;
         right: 0;
+    }
+    .bg-lg-light{
+        background: white !important;
+    }
+}
+
+@media (min-width:992px) {
+    .sec-2-lg-card {
+        min-height: 510px !important;
+    }
+}
+
+@media (min-width:576px) {
+    .sec-2-card {
+        min-height: 410px;
+    }
+}
+
+@media (max-width:576px) {
+    .lh-sm-44 {
+        line-height: 44px;
+    }
+
+    .lh-sm-23 {
+        line-height: 23px;
+    }
+
+    .lh-sm-17 {
+        line-height: 17px;
+    }
+
+    .sec-2-sm-box {
+        min-height: 157px !important;
+    }
+
+    .sec-2-sm-card {
+        min-height: 330px !important;
     }
 }
