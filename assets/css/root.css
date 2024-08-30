@@ -99,7 +99,7 @@
 .fc-lite-green {
     color: var(--fc-lite-green);
 }
-.fc-fc-dark-green {
+.fc-dark-green {
     color: var(--fc-dark-green);
 }
 .fc-off-sky{
@@ -110,23 +110,23 @@
 }
 /* ----------------------------background-color-------------------------------------- */
 .bg-white-green {
-    color: var(--fc-white-green);
+    background-color: var(--fc-white-green);
 }
 .bg-sky{
-    color: var(--fc-sky);
+    background-color: var(--fc-sky);
 }
 .bg-red {
-    color: var(--fc-red);
+    background-color: var(--fc-red);
 }
 .bg-lite-green {
-    color: var(--fc-lite-green);
+    background-color: var(--fc-lite-green);
 }
 .bg-fc-dark-green {
-    color: var(--fc-dark-green);
+    background-color: var(--fc-dark-green);
 }
 .bg-off-sky{
-    color: var(--fc-off-sky);
+    background-color: var(--fc-off-sky);
 }
 .bg-dark-sky{
-    color: var(--fc-dark-sky);
+    background-color: var(--fc-dark-sky);
 }
