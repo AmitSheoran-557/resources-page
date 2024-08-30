@@ -90,9 +90,17 @@
 .fc-white-green {
     color: var(--fc-white-green) !important;
 }
+<<<<<<< HEAD
 
 .fc-sky {
     color: var(--fc-sky) !important;
+=======
+.fc-bg-white-green {
+    background-color: var(--fc-white-green);
+}
+.fc-sky{
+    color: var(--fc-sky);
+>>>>>>> a47d2e2eb67aab02097c0d52044505b68bfd4680
 }
 
 .fc-red {
