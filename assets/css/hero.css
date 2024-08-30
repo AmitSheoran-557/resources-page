@@ -54,7 +54,7 @@ path {
     transition: all 200ms linear;
 }
 
-ul li a:hover {
+ul li a.rotate:hover {
     svg {
         transform: rotate(180deg) !important;
     }
@@ -253,6 +253,7 @@ svg {
         min-height: 510px;
     }
 }
+
 @media (min-width:576px) {
     .sec-2-card {
         min-height: 410px;
