@@ -235,7 +235,7 @@ svg {
 
 @media (min-width:992px) {
     .sec-2-lg-card {
-        min-height: 510px;
+        min-height: 510px !important;
     }
 }
 
