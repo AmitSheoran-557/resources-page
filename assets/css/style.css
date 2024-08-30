@@ -86,7 +86,7 @@
     border: none;
     border-radius: 50px;
 }
-ul li a {
+ a {
     text-decoration: none !important;
     list-style-type: none !important;
     color: white !important;
