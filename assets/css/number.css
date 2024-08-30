@@ -5,6 +5,7 @@
     src: url('https://www.venveo.com/dist/fonts/MaisonNeueLight/font.woff') format('woff');
     src: url('https://www.venveo.com/dist/fonts/MaisonNeueLight/font.woff2') format('woff2');
     font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
@@ -15,12 +16,14 @@
 @font-face {
     font-family: "MaisonNeueMono";
     src: url('https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff') format('woff');
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff2') format('woff2')
 }
 
 @font-face {
     font-family: "SohneSchmal";
     src: url('https://www.venveo.com/dist/fonts/sohne-schmal/soehne-schmal-dreiviertelfett.woff2') format('woff2');
+}
+.MaisonNeuelight{
+    font-family: MaisonNeuelight ;
 }
 
 .spacemononormal {
@@ -109,6 +112,10 @@
 .arrow-image {
     display: none;
 }
+.ml-129{
+    margin-left: 0;
+}
+
 
 @media (min-width:992px) {
     .your-name {
@@ -122,9 +129,16 @@
     }
 
     .arrow-image {
-        bottom: 0;
+        bottom: 20%;
         left: 50%;
-        transform: translateX(-70%);
+        transform: translateX(-75%);
         display: block;
+        rotate: -10deg ;
+    }
+    .ml-129{
+        margin-left: 129px;
+    }
+    .mr-auto{
+        margin-right: auto;
     }
 }
