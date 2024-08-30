@@ -148,7 +148,7 @@ a {
     line-height: 200%;
 }
 
-/* ===================================================================== */
+/* ================================== */
 @font-face {
     font-family: "Söhne Schmal";
     src: url(/assets/font/TestSöhneSchmal-Dreiviertelfett.otf);
@@ -190,6 +190,7 @@ a {
     background-size: cover;
     height: 750px;
     width: 100%;
+    object-fit: cover;
     background-position: center;
 }
 
@@ -222,11 +223,27 @@ a {
     background-size: cover;
 }
 
+.lemon-image {
+    top: 20%;
+}
+
 .sec-3-box {
     background: white;
-    width: 420px;
+    height: 320px;
     border-radius: 25px;
     padding: 28px;
+}
+
+.sec-4-box {
+    background: white;
+    width: 100%;
+    height: 320px;
+    border-radius: 25px;
+    padding: 28px 28px 28px 28px;
+}
+
+.read-btn {
+    bottom: 30px;
 }
 
 .mx-325 {
@@ -273,7 +290,7 @@ a {
 }
 
 .sec-3-card {
-    height: 551px;
+    min-height: 551px;
     margin-top: 25px;
     display: flex;
     align-items: end;
@@ -293,200 +310,21 @@ a {
     margin: 0 auto;
 }
 
-/* =============================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap');
-
-@font-face {
-    font-family: "MaisonNeueBold";
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueBold/font.woff') format('woff');
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueBold/font.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "MaisonNeueSemiBold";
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueDemi/font.woff') format('woff');
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueDemi/font.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    font-display: swap;
-}
-
-
-@font-face {
-    font-family: "MaisonNeuelight";
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueLight/font.woff') format('woff');
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueLight/font.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    font-display: swap;
-}
-
-
-@font-face {
-    font-family: "MaisonNeueMediam";
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMedium/font.woff') format('woff');
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMedium/font.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "MaisonNeueMononormal";
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff') format('woff');
-    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SohneSchmalBold";
-    src: url('https://www.venveo.com/dist/fonts/sohne-schmal/soehne-schmal-dreiviertelfett.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Sohne-Schmalextrabold";
-    src: url('https://www.venveo.com/dist/fonts/sohne-schmal/sohne-schmal-fett.woff2') format('woff2');
-    font-weight: 800;
-    font-style: normal;
-    font-stretch: normal;
-    font-display: swap;
-}
-
-.max-w-1140 {
-    max-width: 1140px;
-}
-
-.spacemononormal {
-    font-family: "Space Mono", monospace;
-
-}
-
-.Sohne-Schmalextrabold {
-    font-family: Sohne-Schmalextrabold;
-}
-
-.SohneSchmalBold {
-    font-family: SohneSchmalBold;
-}
-
-.MaisonNeueMononormal {
-    font-family: MaisonNeueMononormal;
-}
-
-.MaisonNeueMediam {
-    font-family: MaisonNeueMediam;
-}
-
-.MaisonNeuelight {
-    font-family: MaisonNeuelight;
-}
-
-.MaisonNeueSemiBold {
-    font-family: MaisonNeueSemiBold;
-}
-
-.MaisonNeueBold {
-    font-family: MaisonNeueBold;
-}
-
-
-.leading-88 {
-    line-height: 88%;
-}
-
-.leading-100 {
-    line-height: 100%;
-}
-
-.leading-68 {
-    line-height: 148%;
-}
-
-.w-372 {
-    max-width: 372px;
-}
-
-.mt-75 {
-    margin-top: 75px;
-}
-
-.leading-83 {
-    line-height: 83%;
-}
-
-.w-126 {
-    max-width: 126px;
-}
-
-.w-323 {
-    max-width: 303px;
-}
-
-.mt-55 {
-    margin-top: 55px;
-}
-
-.input-name {
-    background-color: transparent;
-    border: none;
-    outline: none;
-}
-
-.bg-white-green-1 {
-    background-size: contain;
-    min-height: 100vh;
-    background-color: #D2F038;
-}
-
-.your-name {
-    min-width: 300px;
-    height: 64px;
-    width: 100%;
-}
-
-.site-btn {
-    padding: 31px 32px 31px 32px;
-}
-
-.w-420 {
-    max-width: 420px;
-}
-
-.arrow-image {
-    display: none;
-}
-
-@media (min-width:992px) {
-    .your-name {
-        min-width: 449px;
-        height: 64px;
-        width: 100%;
+@media (max-width:576px) {
+    .sec-3-box-height {
+        height: 280px !important;
     }
 
+    .sec-4-box-height {
+        height: 250px !important;
+    }
 
-    .arrow-image {
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-70%);
-        display: block;
+    .sec-height {
+        height: 290px !important;
     }
 }
 
-/* =============================================== */
+/* ============================================================================ */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
@@ -515,21 +353,8 @@ a {
     line-height: 70px;
 }
 
-.hero-img {
-    position: relative;
-    position: absolute;
-    width: 50%;
-    top: 70.5px;
-    right: 0;
-}
-
 .m-w-57 {
     max-width: 57px;
-}
-
-
-.m-h-90 {
-    min-height: 90px;
 }
 
 .hero-img {
@@ -538,13 +363,19 @@ a {
 
 .red-circle-img {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     left: -2%;
 }
 
 a,
 path {
     transition: all 200ms linear;
+}
+
+ul li a.rotate:hover {
+    svg {
+        transform: rotate(180deg) !important;
+    }
 }
 
 a:hover {
@@ -562,10 +393,10 @@ svg {
 
 .nav-btn:hover {
     background-color: #00AFB5;
-}
 
-.sec-2-card {
-    min-height: 551px;
+    svg {
+        transform: rotate(180deg) !important;
+    }
 }
 
 .sec-2 .bg-img-1 {
@@ -589,12 +420,8 @@ svg {
     width: 100%;
 }
 
-.mt-202 {
-    margin-top: 300px;
-}
-
 .sec-2-box {
-    min-height: 320px !important;
+    min-height: 270px !important;
 }
 
 .sec-3-bg {
@@ -617,7 +444,6 @@ svg {
     bottom: 10%;
 
 }
-
 
 @font-face {
     font-family: "Söhne Schmal";
@@ -654,9 +480,6 @@ svg {
 .ff-spacemono {
     font-family: "Space Mono", monospace;
 }
-
-
-
 
 @media (max-width:992px) {
     label[for="menuicons"] {
@@ -712,6 +535,10 @@ svg {
         transform-origin: left;
     }
 
+    .w-lg-100 {
+        width: 100%;
+    }
+
 }
 
 @media (max-width:1200px) {
@@ -727,5 +554,181 @@ svg {
         width: 50%;
         top: 70.5px;
         right: 0;
+    }
+
+    .bg-lg-light {
+        background: white !important;
+    }
+}
+
+@media (min-width:992px) {
+    .sec-2-lg-card {
+        min-height: 510px !important;
+    }
+}
+
+@media (min-width:576px) {
+    .sec-2-card {
+        min-height: 410px;
+    }
+}
+
+@media (max-width:576px) {
+    .lh-sm-44 {
+        line-height: 44px;
+    }
+
+    .lh-sm-23 {
+        line-height: 23px;
+    }
+
+    .lh-sm-17 {
+        line-height: 17px;
+    }
+
+    .sec-2-sm-box {
+        min-height: 157px !important;
+    }
+
+    .sec-2-sm-card {
+        min-height: 330px !important;
+    }
+}
+
+/* ============================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap');
+
+@font-face {
+    font-family: "MaisonNeuelight";
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueLight/font.woff') format('woff');
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueLight/font.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "MaisonNeue";
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMedium/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "MaisonNeueMono";
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff') format('woff');
+    src: url('https://www.venveo.com/dist/fonts/MaisonNeueMonoRegular/font.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: "SohneSchmal";
+    src: url('https://www.venveo.com/dist/fonts/sohne-schmal/soehne-schmal-dreiviertelfett.woff2') format('woff2');
+}
+
+.spacemononormal {
+    font-family: "Space Mono", monospace;
+}
+
+.SohneSchmal {
+    font-family: SohneSchmal;
+}
+
+.MaisonNeueMono {
+    font-family: MaisonNeueMono;
+}
+
+.MaisonNeue {
+    font-family: MaisonNeue;
+}
+
+.leading-88 {
+    line-height: 88%;
+}
+
+.leading-100 {
+    line-height: 100%;
+}
+
+.leading-68 {
+    line-height: 148%;
+}
+
+.w-372 {
+    max-width: 414px;
+}
+
+.read-btn {
+    transition: all 200ms linear;
+}
+
+.read-btn:hover {
+    color: #00AFB5 !important;
+
+}
+
+
+
+.leading-83 {
+    line-height: 83%;
+}
+
+.w-126 {
+    max-width: 126px;
+}
+
+.w-323 {
+    max-width: 303px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.input-name {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.bg-white-green-1 {
+    background-size: contain;
+    min-height: 100vh;
+    background-color: #D2F038;
+}
+
+.your-name {
+    min-width: 300px;
+    height: 64px;
+    width: 100%;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.site-btn {
+    padding: 31px 32px 31px 32px;
+}
+
+.w-420 {
+    max-width: 420px;
+}
+
+.arrow-image {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .your-name {
+        min-width: 449px;
+        height: 64px;
+        width: 100%;
+    }
+
+    .mt-lg-75 {
+        margin-top: 75px;
+    }
+
+    .arrow-image {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-70%);
+        display: block;
     }
 }
